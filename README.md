@@ -2,6 +2,46 @@
 
 This repository documents my hands-on SQL learning journey as I prepare for an Entry-Level Data Analyst role.
 
+## Day 1 — SQL Fundamentals
+
+### Topics Practiced
+
+- Database, tables, rows and columns
+- SELECT
+- DISTINCT
+- WHERE
+- Comparison operators: =, >, <, >=, <=, <>
+- AND
+- OR
+- IN
+- NOT IN
+- BETWEEN
+- NOT BETWEEN
+- LIKE
+- NULL
+- IS NULL
+- IS NOT NULL
+
+### What I Practiced
+
+- Selecting specific columns from a table
+- Filtering rows using WHERE
+- Removing duplicate results using DISTINCT
+- Filtering using multiple conditions
+- Working with value lists using IN and NOT IN
+- Filtering values within a range using BETWEEN
+- Searching text using LIKE
+- Handling missing values using NULL
+- Translating basic business questions into SQL queries
+
+### Example
+
+```sql
+SELECT name, salary
+FROM employees
+WHERE department = 'Sales'
+AND salary > 40000;
+
 ## Day 2 — ORDER BY, LIMIT & OFFSET
 
 ### Topics Practiced
