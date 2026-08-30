@@ -741,7 +741,50 @@ Before writing a SQL query, ask:
 - OFFSET
 - WHERE + ORDER BY + LIMIT
 - Second-highest value
+---
 
+# 📅 Day 3 — Aggregate Functions, GROUP BY & HAVING
+
+## Topics Practiced
+
+- COUNT()
+- COUNT(*)
+- COUNT(column)
+- SUM()
+- AVG()
+- MIN()
+- MAX()
+- Aliases using AS
+- GROUP BY
+- WHERE + GROUP BY
+- HAVING
+- WHERE vs HAVING
+- ORDER BY with aggregate results
+
+## What I Practiced
+
+- Counting employees
+- Calculating total salary
+- Calculating average salary
+- Finding minimum and maximum salary
+- Giving readable names to calculated columns
+- Grouping employees by department
+- Calculating department-wise totals and averages
+- Filtering rows before grouping using WHERE
+- Filtering groups after aggregation using HAVING
+- Sorting aggregated results
+- Translating business questions into SQL queries
+
+## Example
+
+```sql
+SELECT department,
+       COUNT(*) AS employee_count,
+       SUM(salary) AS total_salary
+FROM employees
+GROUP BY department
+HAVING COUNT(*) >= 2
+ORDER BY total_salary DESC;
 ---
 
 # 🎯 Goal
