@@ -17,6 +17,7 @@ My focus is simple:
 | Day 01 | SQL Fundamentals | ✅ Completed |
 | Day 02 | ORDER BY, LIMIT & OFFSET | ✅ Completed |
 | Day 03 | Aggregate Functions, GROUP BY & HAVING | ✅ Completed |
+| Day 04 | CASE, COALESCE & Date Analysis | ✅ Completed |
 
 ---
 
@@ -149,8 +150,6 @@ The objective is to understand **why it works**.
 ---
 
 ## 📂 Repository Structure
-
-```text
 sql-learning-journey/
 │
 ├── Day-01/
@@ -162,10 +161,10 @@ sql-learning-journey/
 ├── Day-03/
 │   └── aggregate-groupby.sql
 │
+├── day4/
+│   └── case_coalesce_dates.sql
+│
 └── README.md
-```
-
----
 
 ## 📈 Current Goal
 
