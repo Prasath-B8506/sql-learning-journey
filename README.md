@@ -1,8 +1,8 @@
 # SQL Learning Journey 📊
 
-> **Learning SQL by solving problems, not memorizing syntax.**
+Learning SQL by solving problems, not memorizing syntax.
 
-This repository documents my hands-on SQL journey as I prepare for an **Entry-Level Data Analyst** role.
+This repository documents my hands-on SQL learning journey as I prepare for an Entry-Level Data Analyst role.
 
 My focus is simple:
 
@@ -10,10 +10,10 @@ My focus is simple:
 
 ---
 
-## 🚀 Progress
+# 🚀 Progress
 
 | Day | Focus | Status |
-|---|---|---|
+|-----|-------|--------|
 | Day 01 | SQL Fundamentals | ✅ Completed |
 | Day 02 | ORDER BY, LIMIT & OFFSET | ✅ Completed |
 | Day 03 | Aggregate Functions, GROUP BY & HAVING | ✅ Completed |
@@ -21,43 +21,56 @@ My focus is simple:
 
 ---
 
-## 📚 What I've Practiced
+# 📚 What I've Practiced
 
-### Day 01 — SQL Fundamentals
+## 🗓️ Day 1 — SQL Fundamentals
 
+### Topics Practiced
+
+- Database, tables, rows and columns
 - SELECT
 - DISTINCT
 - WHERE
 - Comparison operators
 - AND / OR
 - IN / NOT IN
-- BETWEEN / NOT BETWEEN
+- BETWEEN
 - LIKE
 - NULL handling
+- IS NULL
+- IS NOT NULL
 
-**Practice:** Employee filtering and basic business questions.
+### Practice
 
-📁 [Day 01 SQL Practice](Day-01/sql-basics.sql)
+Worked with employee data and practiced retrieving and filtering data based on different conditions.
+
+📁 [Day 01 SQL Practice](Day-01/)
 
 ---
 
-### Day 02 — Sorting & Result Control
+## 🗓️ Day 2 — Sorting & Limiting Results
+
+### Topics Practiced
 
 - ORDER BY
-- ASC / DESC
+- ASC
+- DESC
 - LIMIT
 - OFFSET
 - WHERE + ORDER BY + LIMIT
-- Finding highest and lowest records
-- Finding second-highest values
+- Finding the second-highest value
 
-**Practice:** Sales analysis and ranking-based queries.
+### Practice
 
-📁 [Day 02 SQL Practice](Day-02/order-by-limit.sql)
+Practiced sorting query results, limiting output, skipping records, and solving ranking-based SQL problems.
+
+📁 [Day 02 SQL Practice](Day-02/)
 
 ---
 
-### Day 03 — Aggregation & Group Analysis
+## 🗓️ Day 3 — Aggregate Functions & Grouping
+
+### Topics Practiced
 
 - COUNT()
 - SUM()
@@ -66,17 +79,19 @@ My focus is simple:
 - MAX()
 - Aliases using AS
 - GROUP BY
-- WHERE + GROUP BY
 - HAVING
 - WHERE vs HAVING
 - ORDER BY with aggregated results
 
-**Practice:** Department-level employee analysis and business-style aggregation problems.
+### Practice
 
-📁 [Day 03 SQL Practice](Day-03/aggregate-groupby.sql)
+Solved department-level employee analysis and business-style aggregation problems using aggregate functions and grouping.
+
+📁 [Day 03 SQL Practice](Day-03/)
 
 ---
-## Day 4 — CASE, COALESCE & Date Analysis
+
+## 🗓️ Day 4 — CASE, COALESCE & Date Analysis
 
 ### Topics Practiced
 
@@ -90,66 +105,17 @@ My focus is simple:
 - Date-based GROUP BY
 - HAVING with aggregate functions
 
-### What I Practiced
+### Practice
 
-- Classifying employees into salary categories
-- Counting employees based on salary conditions
-- Calculating conditional salary totals
-- Replacing NULL bonus values with 0
-- Filtering records using dates
-- Calculating total sales for each month
-- Finding the month with the highest sales
-- Filtering grouped monthly results using HAVING
-- Combining GROUP BY, HAVING, ORDER BY and LIMIT
+Practiced using conditional logic, handling missing values, filtering records by date, and analyzing monthly sales data.
 
-### Key Learning
+📁 [Day 04 SQL Practice](day4/)
 
-Used SQL conditional logic and aggregation to answer business questions, handle missing values, and analyze sales data over time.
+---
 
-## 🧠 My SQL Thinking Framework
-
-Before writing a query, I ask:
+# 📁 Repository Structure
 
 ```text
-1. What information is required?
-2. Which table contains it?
-3. Which columns are needed?
-4. Which rows should be filtered?
-5. Do I need grouping?
-6. Do I need an aggregate function?
-7. Should I filter groups?
-8. How should the final result be sorted?
-```
-
----
-
-## 🎯 Interview Preparation
-
-Alongside daily SQL practice, I am developing the ability to:
-
-- Explain SQL queries in plain English
-- Translate business questions into SQL
-- Identify common SQL mistakes
-- Handle NULL values correctly
-- Understand aggregation and grouping
-- Solve SQL interview-style problems
-- Think about results from a business perspective
-
----
-
-## 🛠️ Learning Approach
-
-I am following a practical workflow:
-
-**Concept → Guided Practice → Independent Query → Mistake Correction → Business Problem → Interview Question**
-
-The objective is not just to make a query run.
-
-The objective is to understand **why it works**.
-
----
-
-## 📂 Repository Structure
 sql-learning-journey/
 │
 ├── Day-01/
@@ -165,22 +131,3 @@ sql-learning-journey/
 │   └── case_coalesce_dates.sql
 │
 └── README.md
-
-## 📈 Current Goal
-
-Build strong SQL skills for:
-
-**Data Analysis → Real-World Problem Solving → SQL Interviews → Portfolio Projects**
-
-This repository will continue to grow as I progress through my SQL learning journey.
-
----
-
-## 👨‍💻 About Me
-
-**Prasath B**
-
-Electronics and Communication Engineering Student  
-Aspiring Data Analyst
-
-[GitHub](https://github.com/Prasath-B8506) · [LinkedIn](https://www.linkedin.com/in/prasathb04/)
