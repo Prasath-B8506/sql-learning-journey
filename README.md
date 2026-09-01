@@ -75,6 +75,35 @@ My focus is simple:
 📁 [Day 03 SQL Practice](Day-03/aggregate-groupby.sql)
 
 ---
+## Day 4 — CASE, COALESCE & Date Analysis
+
+### Topics Practiced
+
+- CASE
+- Conditional aggregation
+- SUM with CASE
+- COALESCE
+- Handling NULL values
+- Date filtering
+- MONTH()
+- Date-based GROUP BY
+- HAVING with aggregate functions
+
+### What I Practiced
+
+- Classifying employees into salary categories
+- Counting employees based on salary conditions
+- Calculating conditional salary totals
+- Replacing NULL bonus values with 0
+- Filtering records using dates
+- Calculating total sales for each month
+- Finding the month with the highest sales
+- Filtering grouped monthly results using HAVING
+- Combining GROUP BY, HAVING, ORDER BY and LIMIT
+
+### Key Learning
+
+Used SQL conditional logic and aggregation to answer business questions, handle missing values, and analyze sales data over time.
 
 ## 🧠 My SQL Thinking Framework
 
