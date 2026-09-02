@@ -18,6 +18,7 @@ My focus is simple:
 | Day 02 | ORDER BY, LIMIT & OFFSET | ✅ Completed |
 | Day 03 | Aggregate Functions, GROUP BY & HAVING | ✅ Completed |
 | Day 04 | CASE, COALESCE & Date Analysis | ✅ Completed |
+| Day 05 | SQL JOINs | ✅ Completed |
 
 ---
 
@@ -109,7 +110,32 @@ Solved department-level employee analysis and business-style aggregation problem
 
 Practiced using conditional logic, handling missing values, filtering records by date, and analyzing monthly sales data.
 
-📁 [Day 04 SQL Practice](day4/)
+📁 [Day 04 SQL Practice](Day-04/)
+
+---
+
+## 🗓️ Day 5 — SQL JOINs
+
+### Topics Practiced
+
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- JOIN conditions using ON
+- Table aliases
+- Joining employee and department tables
+- COUNT() with JOIN
+- SUM() with JOIN
+- AVG() with JOIN
+- GROUP BY with JOIN
+- HAVING with JOIN
+- ORDER BY aggregated results
+
+### Practice
+
+Practiced combining data from employee and department tables and solved problems involving employee counts, total salaries, average salaries, and department-level analysis.
+
+📁 [Day 05 SQL Practice](Day-05/)
 
 ---
 
@@ -127,7 +153,10 @@ sql-learning-journey/
 ├── Day-03/
 │   └── aggregate-groupby.sql
 │
-├── day4/
+├── Day-04/
 │   └── case_coalesce_dates.sql
+│
+├── Day-05/
+│   └── joins.sql
 │
 └── README.md
