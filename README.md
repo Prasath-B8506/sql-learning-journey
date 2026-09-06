@@ -19,6 +19,7 @@ My focus is simple:
 | Day 03 | Aggregate Functions, GROUP BY & HAVING | ✅ Completed |
 | Day 04 | CASE, COALESCE & Date Analysis | ✅ Completed |
 | Day 05 | SQL JOINs | ✅ Completed |
+| Day 06 | SQL Subqueries | ✅ Completed |
 
 ---
 
@@ -139,6 +140,29 @@ Practiced combining data from employee and department tables and solved problems
 
 ---
 
+## 🗓️ Day 6 — SQL Subqueries
+
+### Topics Practiced
+
+- What is a Subquery?
+- Inner Query and Outer Query
+- Subqueries with `AVG()`
+- Subqueries with `MAX()`
+- Subqueries with `MIN()`
+- Comparing values using Subqueries
+- `IN` with Subqueries
+- `NOT IN` with Subqueries
+- Subqueries inside `FROM`
+- Using a Subquery as a temporary result table
+
+### Practice
+
+Practiced solving employee data problems using subqueries. Compared employee salaries with the overall average salary, found employees with the highest and lowest salaries, filtered employees using `IN` and `NOT IN`, and performed multi-stage calculations using subqueries inside `FROM`.
+
+📁 [Day 06 SQL Practice](Day-06/)
+
+---
+
 # 📁 Repository Structure
 
 ```text
@@ -159,4 +183,8 @@ sql-learning-journey/
 ├── Day-05/
 │   └── joins.sql
 │
+├── Day-06/
+│   └── subqueries.sql
+│
 └── README.md
+```
