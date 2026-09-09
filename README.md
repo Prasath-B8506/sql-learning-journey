@@ -20,6 +20,7 @@ My focus is simple:
 | Day 04 | CASE, COALESCE & Date Analysis | ✅ Completed |
 | Day 05 | SQL JOINs | ✅ Completed |
 | Day 06 | SQL Subqueries | ✅ Completed |
+| Day 07 | Common Table Expressions (CTEs) | ✅ Completed |
 
 ---
 
@@ -163,6 +164,33 @@ Practiced solving employee data problems using subqueries. Compared employee sal
 
 ---
 
+## 🗓️ Day 7 — Common Table Expressions (CTEs)
+
+### Topics Practiced
+
+- What is a CTE?
+- Basic CTE syntax
+- CTE with `SUM()`
+- CTE with `AVG()`
+- CTE with `COUNT()`
+- CTE with `MAX()`
+- CTE with `MIN()`
+- Filtering CTE results
+- `WHERE` vs `HAVING` with CTEs
+- Multiple aggregate calculations in a CTE
+- Multiple CTEs
+- CTE + JOIN
+- CTE vs Subquery
+- Business analysis using CTEs
+
+### Practice
+
+Practiced creating temporary named result sets using CTEs and performing department-level analysis. Built CTEs using multiple aggregate functions, filtered aggregated results, combined multiple CTEs using JOINs, and compared CTEs with subqueries.
+
+📁 [Day 07 SQL Practice](Day-07/)
+
+---
+
 # 📁 Repository Structure
 
 ```text
@@ -186,5 +214,7 @@ sql-learning-journey/
 ├── Day-06/
 │   └── subqueries.sql
 │
+├── Day-07/
+│   └── ctes.sql
+│
 └── README.md
-```
