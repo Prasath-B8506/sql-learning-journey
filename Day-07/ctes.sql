@@ -1,0 +1,12 @@
+-- Day 07: Common Table Expressions (CTEs)
+
+-- 1. Basic CTE
+-- 2. CTE with AVG()
+-- 3. CTE with SUM()
+-- 4. Filtering CTE results
+-- 5. Multiple aggregate calculations
+-- 6. HAVING with CTE
+-- 7. Multiple CTEs
+-- 8. CTE + JOIN
+-- 9. CTE vs Subquery
+-- 10. Business analysis using CTE
