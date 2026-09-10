@@ -21,6 +21,7 @@ My focus is simple:
 | Day 05 | SQL JOINs | ✅ Completed |
 | Day 06 | SQL Subqueries | ✅ Completed |
 | Day 07 | Common Table Expressions (CTEs) | ✅ Completed |
+| Day 08 | SQL Window Functions | ✅ Completed |
 
 ---
 
@@ -191,6 +192,63 @@ Practiced creating temporary named result sets using CTEs and performing departm
 
 ---
 
+## 🗓️ Day 8 — SQL Window Functions
+
+### Topics Practiced
+
+- What are Window Functions?
+- `OVER()`
+- `PARTITION BY`
+- `ORDER BY` with Window Functions
+- `ROW_NUMBER()`
+- `RANK()`
+- `DENSE_RANK()`
+- `ROW_NUMBER()` vs `RANK()` vs `DENSE_RANK()`
+- Finding the highest-paid employee in each department
+- Finding the second-highest salary in each department
+- `SUM()` with Window Functions
+- `AVG()` with Window Functions
+- Running totals
+- `LAG()`
+- `LEAD()`
+- Comparing current and previous values
+- Salary difference using `LAG()`
+- Window Functions vs `GROUP BY`
+- Using CTEs with Window Functions
+- Business-style analysis using Window Functions
+
+### Practice
+
+Practiced analyzing employee data using Window Functions while preserving individual rows. Implemented department-level rankings, salary comparisons, running totals, previous and next row analysis, and business-style comparisons using `LAG()` and `LEAD()`.
+
+Also practiced ranking-based SQL problems using `ROW_NUMBER()` and `RANK()`.
+
+📁 [Day 08 SQL Practice](Day-08/)
+
+---
+
+# 🎯 Key SQL Concepts Covered
+
+Throughout the first 8 days, I have practiced:
+
+- Data filtering
+- Sorting and limiting results
+- Aggregation
+- Grouping
+- Conditional logic
+- NULL handling
+- Date analysis
+- JOINs
+- Subqueries
+- CTEs
+- Window Functions
+- Ranking
+- Running totals
+- Previous/next row analysis
+- Business-oriented SQL problems
+
+---
+
 # 📁 Repository Structure
 
 ```text
@@ -216,5 +274,8 @@ sql-learning-journey/
 │
 ├── Day-07/
 │   └── ctes.sql
+│
+├── Day-08/
+│   └── window-functions.sql
 │
 └── README.md
