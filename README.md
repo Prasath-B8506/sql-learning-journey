@@ -22,6 +22,7 @@ My focus is simple:
 | Day 06 | SQL Subqueries | ✅ Completed |
 | Day 07 | Common Table Expressions (CTEs) | ✅ Completed |
 | Day 08 | SQL Window Functions | ✅ Completed |
+| Day 09 | Advanced SQL | ✅ Completed |
 
 ---
 
@@ -227,25 +228,90 @@ Also practiced ranking-based SQL problems using `ROW_NUMBER()` and `RANK()`.
 
 ---
 
+## 🗓️ Day 9 — Advanced SQL
+
+### Topics Practiced
+
+- `UNION`
+- `UNION ALL`
+- `EXISTS`
+- `NOT EXISTS`
+- Self JOIN
+- Multiple JOINs
+- Advanced `CASE`
+- Duplicate detection
+- Finding missing and unmatched records
+- Top-N queries
+- Top-N within each group
+- CTE + JOIN + Window Functions
+- Ranking-based business problems
+- Second-highest salary
+- Advanced SQL interview questions
+
+### Practice
+
+Practiced combining multiple SQL concepts to solve advanced Data Analyst problems. Worked with set operations, existence checks, Self JOINs, multiple-table JOINs, conditional categorization, duplicate detection, unmatched records, ranking, Top-N analysis, and multi-step queries using CTEs and Window Functions.
+
+Also practiced LeetCode-style and HackerRank-style SQL problems and completed a Day 9 revision test.
+
+📁 [Day 09 SQL Practice](Day-09/)
+
+---
+
 # 🎯 Key SQL Concepts Covered
 
-Throughout the first 8 days, I have practiced:
+Throughout the first 9 days, I have practiced:
 
-- Data filtering
+- Data retrieval and filtering
 - Sorting and limiting results
-- Aggregation
-- Grouping
-- Conditional logic
+- Aggregate functions
+- GROUP BY and HAVING
+- Conditional logic using CASE
 - NULL handling
 - Date analysis
-- JOINs
+- INNER JOIN, LEFT JOIN and RIGHT JOIN
+- Self JOIN
+- Multiple JOINs
 - Subqueries
 - CTEs
 - Window Functions
-- Ranking
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
 - Running totals
-- Previous/next row analysis
+- LAG() and LEAD()
+- UNION and UNION ALL
+- EXISTS and NOT EXISTS
+- Duplicate detection
+- Missing and unmatched records
+- Top-N analysis
 - Business-oriented SQL problems
+
+---
+
+# 🧠 SQL Problem-Solving Approach
+
+For each problem, I focus on:
+
+**Understand the data → Identify the business question → Choose the right SQL concept → Write the query → Validate the result → Explain the output**
+
+---
+
+# 📈 Learning Approach
+
+My learning approach is focused on practical problem solving rather than memorizing SQL syntax.
+
+For each concept, I work through:
+
+1. Understanding the concept
+2. Working with sample data
+3. Writing SQL queries
+4. Solving practice problems
+5. Validating query results
+6. Solving business-style problems
+7. Preparing for interview questions
+8. Practicing coding-platform problems
+9. Documenting the learning process
 
 ---
 
@@ -277,5 +343,8 @@ sql-learning-journey/
 │
 ├── Day-08/
 │   └── window-functions.sql
+│
+├── Day-09/
+│   └── advanced-sql.sql
 │
 └── README.md
