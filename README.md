@@ -133,6 +133,7 @@ Practiced using conditional logic, handling missing values, filtering records by
 - AVG() with JOIN
 - GROUP BY with JOIN
 - HAVING with JOIN
+- ORDER BY with aggregated results
 
 ### Practice
 
@@ -146,15 +147,16 @@ Practiced combining data from multiple tables and performing employee and depart
 
 ### Topics Practiced
 
-- Subqueries
+- What is a Subquery?
 - Inner Query and Outer Query
 - Subqueries with AVG()
 - Subqueries with MAX()
 - Subqueries with MIN()
+- Comparing values using Subqueries
 - IN with Subqueries
 - NOT IN with Subqueries
 - Subqueries inside FROM
-- Temporary result sets
+- Using a Subquery as a temporary result table
 
 ### Practice
 
@@ -168,14 +170,16 @@ Practiced solving employee salary problems using subqueries and multi-stage SQL 
 
 ### Topics Practiced
 
-- CTE syntax
+- What is a CTE?
+- Basic CTE syntax
 - CTE with SUM()
 - CTE with AVG()
 - CTE with COUNT()
 - CTE with MAX()
 - CTE with MIN()
 - Filtering CTE results
-- WHERE vs HAVING
+- WHERE vs HAVING with CTEs
+- Multiple aggregate calculations
 - Multiple CTEs
 - CTE + JOIN
 - CTE vs Subquery
@@ -183,7 +187,9 @@ Practiced solving employee salary problems using subqueries and multi-stage SQL 
 
 ### Practice
 
-Built temporary named result sets to make multi-step SQL analysis easier to read and manage.
+Practiced creating temporary named result sets using CTEs and performing department-level analysis.
+
+Built CTEs using multiple aggregate functions, filtered aggregated results, combined multiple CTEs using JOINs, and compared CTEs with subqueries.
 
 📁 [Day 07 SQL Practice](Day-07/)
 
@@ -193,23 +199,32 @@ Built temporary named result sets to make multi-step SQL analysis easier to read
 
 ### Topics Practiced
 
+- What are Window Functions?
 - OVER()
 - PARTITION BY
 - ORDER BY with Window Functions
 - ROW_NUMBER()
 - RANK()
 - DENSE_RANK()
+- ROW_NUMBER() vs RANK() vs DENSE_RANK()
+- Finding the highest-paid employee in each department
+- Finding the second-highest salary in each department
+- SUM() with Window Functions
+- AVG() with Window Functions
 - Running totals
 - LAG()
 - LEAD()
-- Salary comparisons
-- Ranking within groups
+- Comparing current and previous values
+- Salary difference using LAG()
 - Window Functions vs GROUP BY
 - CTE + Window Functions
+- Business-style analysis using Window Functions
 
 ### Practice
 
-Practiced ranking, running totals, previous and next row analysis, and department-level salary analysis.
+Practiced ranking, running totals, previous and next row analysis, salary comparisons, and department-level analysis while preserving individual rows.
+
+Also practiced ranking-based SQL problems using ROW_NUMBER() and RANK().
 
 📁 [Day 08 SQL Practice](Day-08/)
 
@@ -227,15 +242,19 @@ Practiced ranking, running totals, previous and next row analysis, and departmen
 - Multiple JOINs
 - Advanced CASE
 - Duplicate detection
-- Missing and unmatched records
+- Finding missing and unmatched records
 - Top-N queries
 - Top-N within each group
 - CTE + JOIN + Window Functions
+- Ranking-based business problems
 - Second-highest salary
+- Advanced SQL interview questions
 
 ### Practice
 
 Combined multiple SQL concepts to solve advanced Data Analyst problems and business-style SQL questions.
+
+Also practiced LeetCode-style and HackerRank-style SQL problems and completed a Day 9 revision test.
 
 📁 [Day 09 SQL Practice](Day-09/)
 
@@ -247,7 +266,7 @@ Combined multiple SQL concepts to solve advanced Data Analyst problems and busin
 
 This project simulates a real-world E-Commerce Sales Analysis task.
 
-The goal is to analyze customer orders and identify important business metrics, top-performing products, customer performance, category performance, and monthly revenue trends.
+The goal is to analyze customer orders and identify important business metrics, top-performing products, customer performance, category performance, monthly revenue trends, repeat customers, and city-level performance.
 
 The analysis was performed using SQL.
 
