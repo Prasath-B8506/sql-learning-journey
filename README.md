@@ -23,6 +23,7 @@ My focus is simple:
 | Day 07 | Common Table Expressions (CTEs) | ✅ Completed |
 | Day 08 | SQL Window Functions | ✅ Completed |
 | Day 09 | Advanced SQL | ✅ Completed |
+| Day 10 | E-Commerce Sales Analysis Project | ✅ Completed |
 
 ---
 
@@ -127,17 +128,15 @@ Practiced using conditional logic, handling missing values, filtering records by
 - RIGHT JOIN
 - JOIN conditions using ON
 - Table aliases
-- Joining employee and department tables
 - COUNT() with JOIN
 - SUM() with JOIN
 - AVG() with JOIN
 - GROUP BY with JOIN
 - HAVING with JOIN
-- ORDER BY aggregated results
 
 ### Practice
 
-Practiced combining data from employee and department tables and solved problems involving employee counts, total salaries, average salaries, and department-level analysis.
+Practiced combining data from multiple tables and performing employee and department-level analysis.
 
 📁 [Day 05 SQL Practice](Day-05/)
 
@@ -147,20 +146,19 @@ Practiced combining data from employee and department tables and solved problems
 
 ### Topics Practiced
 
-- What is a Subquery?
+- Subqueries
 - Inner Query and Outer Query
-- Subqueries with `AVG()`
-- Subqueries with `MAX()`
-- Subqueries with `MIN()`
-- Comparing values using Subqueries
-- `IN` with Subqueries
-- `NOT IN` with Subqueries
-- Subqueries inside `FROM`
-- Using a Subquery as a temporary result table
+- Subqueries with AVG()
+- Subqueries with MAX()
+- Subqueries with MIN()
+- IN with Subqueries
+- NOT IN with Subqueries
+- Subqueries inside FROM
+- Temporary result sets
 
 ### Practice
 
-Practiced solving employee data problems using subqueries. Compared employee salaries with the overall average salary, found employees with the highest and lowest salaries, filtered employees using `IN` and `NOT IN`, and performed multi-stage calculations using subqueries inside `FROM`.
+Practiced solving employee salary problems using subqueries and multi-stage SQL analysis.
 
 📁 [Day 06 SQL Practice](Day-06/)
 
@@ -170,16 +168,14 @@ Practiced solving employee data problems using subqueries. Compared employee sal
 
 ### Topics Practiced
 
-- What is a CTE?
-- Basic CTE syntax
-- CTE with `SUM()`
-- CTE with `AVG()`
-- CTE with `COUNT()`
-- CTE with `MAX()`
-- CTE with `MIN()`
+- CTE syntax
+- CTE with SUM()
+- CTE with AVG()
+- CTE with COUNT()
+- CTE with MAX()
+- CTE with MIN()
 - Filtering CTE results
-- `WHERE` vs `HAVING` with CTEs
-- Multiple aggregate calculations in a CTE
+- WHERE vs HAVING
 - Multiple CTEs
 - CTE + JOIN
 - CTE vs Subquery
@@ -187,7 +183,7 @@ Practiced solving employee data problems using subqueries. Compared employee sal
 
 ### Practice
 
-Practiced creating temporary named result sets using CTEs and performing department-level analysis. Built CTEs using multiple aggregate functions, filtered aggregated results, combined multiple CTEs using JOINs, and compared CTEs with subqueries.
+Built temporary named result sets to make multi-step SQL analysis easier to read and manage.
 
 📁 [Day 07 SQL Practice](Day-07/)
 
@@ -197,32 +193,23 @@ Practiced creating temporary named result sets using CTEs and performing departm
 
 ### Topics Practiced
 
-- What are Window Functions?
-- `OVER()`
-- `PARTITION BY`
-- `ORDER BY` with Window Functions
-- `ROW_NUMBER()`
-- `RANK()`
-- `DENSE_RANK()`
-- `ROW_NUMBER()` vs `RANK()` vs `DENSE_RANK()`
-- Finding the highest-paid employee in each department
-- Finding the second-highest salary in each department
-- `SUM()` with Window Functions
-- `AVG()` with Window Functions
+- OVER()
+- PARTITION BY
+- ORDER BY with Window Functions
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
 - Running totals
-- `LAG()`
-- `LEAD()`
-- Comparing current and previous values
-- Salary difference using `LAG()`
-- Window Functions vs `GROUP BY`
-- Using CTEs with Window Functions
-- Business-style analysis using Window Functions
+- LAG()
+- LEAD()
+- Salary comparisons
+- Ranking within groups
+- Window Functions vs GROUP BY
+- CTE + Window Functions
 
 ### Practice
 
-Practiced analyzing employee data using Window Functions while preserving individual rows. Implemented department-level rankings, salary comparisons, running totals, previous and next row analysis, and business-style comparisons using `LAG()` and `LEAD()`.
-
-Also practiced ranking-based SQL problems using `ROW_NUMBER()` and `RANK()`.
+Practiced ranking, running totals, previous and next row analysis, and department-level salary analysis.
 
 📁 [Day 08 SQL Practice](Day-08/)
 
@@ -232,119 +219,101 @@ Also practiced ranking-based SQL problems using `ROW_NUMBER()` and `RANK()`.
 
 ### Topics Practiced
 
-- `UNION`
-- `UNION ALL`
-- `EXISTS`
-- `NOT EXISTS`
+- UNION
+- UNION ALL
+- EXISTS
+- NOT EXISTS
 - Self JOIN
 - Multiple JOINs
-- Advanced `CASE`
+- Advanced CASE
 - Duplicate detection
-- Finding missing and unmatched records
+- Missing and unmatched records
 - Top-N queries
 - Top-N within each group
 - CTE + JOIN + Window Functions
-- Ranking-based business problems
 - Second-highest salary
-- Advanced SQL interview questions
 
 ### Practice
 
-Practiced combining multiple SQL concepts to solve advanced Data Analyst problems. Worked with set operations, existence checks, Self JOINs, multiple-table JOINs, conditional categorization, duplicate detection, unmatched records, ranking, Top-N analysis, and multi-step queries using CTEs and Window Functions.
-
-Also practiced LeetCode-style and HackerRank-style SQL problems and completed a Day 9 revision test.
+Combined multiple SQL concepts to solve advanced Data Analyst problems and business-style SQL questions.
 
 📁 [Day 09 SQL Practice](Day-09/)
 
 ---
 
-# 🎯 Key SQL Concepts Covered
+# 🗓️ Day 10 — E-Commerce Sales Analysis Project
 
-Throughout the first 9 days, I have practiced:
+## 📌 Project Overview
 
-- Data retrieval and filtering
-- Sorting and limiting results
-- Aggregate functions
-- GROUP BY and HAVING
-- Conditional logic using CASE
-- NULL handling
-- Date analysis
-- INNER JOIN, LEFT JOIN and RIGHT JOIN
-- Self JOIN
-- Multiple JOINs
-- Subqueries
-- CTEs
-- Window Functions
-- ROW_NUMBER()
-- RANK()
-- DENSE_RANK()
-- Running totals
-- LAG() and LEAD()
-- UNION and UNION ALL
-- EXISTS and NOT EXISTS
-- Duplicate detection
-- Missing and unmatched records
-- Top-N analysis
-- Business-oriented SQL problems
+This project simulates a real-world E-Commerce Sales Analysis task.
+
+The goal is to analyze customer orders and identify important business metrics, top-performing products, customer performance, category performance, and monthly revenue trends.
+
+The analysis was performed using SQL.
+
+📁 [Day 10 — E-Commerce Sales Analysis](Day-10/)
 
 ---
 
-# 🧠 SQL Problem-Solving Approach
+## 🎯 Business Questions
 
-For each problem, I focus on:
+The project answers questions such as:
 
-**Understand the data → Identify the business question → Choose the right SQL concept → Write the query → Validate the result → Explain the output**
-
----
-
-# 📈 Learning Approach
-
-My learning approach is focused on practical problem solving rather than memorizing SQL syntax.
-
-For each concept, I work through:
-
-1. Understanding the concept
-2. Working with sample data
-3. Writing SQL queries
-4. Solving practice problems
-5. Validating query results
-6. Solving business-style problems
-7. Preparing for interview questions
-8. Practicing coding-platform problems
-9. Documenting the learning process
+1. What is the total revenue?
+2. How many orders were placed?
+3. How many unique customers made purchases?
+4. What is the average order value?
+5. Which customer generated the highest revenue?
+6. Which product generated the highest revenue?
+7. Which product sold the highest quantity?
+8. Which category generated the highest revenue?
+9. Which month generated the highest revenue?
+10. Which customers made repeat purchases?
+11. Which city generated the highest revenue?
+12. How do customers and products perform together?
 
 ---
 
-# 📁 Repository Structure
+## 🗂️ Dataset
+
+The project uses three tables:
+
+### Customers
+
+| Column | Description |
+|--------|-------------|
+| customer_id | Unique customer identifier |
+| customer_name | Customer name |
+| city | Customer city |
+
+### Products
+
+| Column | Description |
+|--------|-------------|
+| product_id | Unique product identifier |
+| product_name | Product name |
+| category | Product category |
+| price | Product price |
+
+### Orders
+
+| Column | Description |
+|--------|-------------|
+| order_id | Unique order identifier |
+| customer_id | Customer identifier |
+| order_date | Date of order |
+| product_id | Product identifier |
+| quantity | Quantity purchased |
+
+### Table Relationships
 
 ```text
-sql-learning-journey/
-│
-├── Day-01/
-│   └── sql-basics.sql
-│
-├── Day-02/
-│   └── order-by-limit.sql
-│
-├── Day-03/
-│   └── aggregate-groupby.sql
-│
-├── Day-04/
-│   └── case_coalesce_dates.sql
-│
-├── Day-05/
-│   └── joins.sql
-│
-├── Day-06/
-│   └── subqueries.sql
-│
-├── Day-07/
-│   └── ctes.sql
-│
-├── Day-08/
-│   └── window-functions.sql
-│
-├── Day-09/
-│   └── advanced-sql.sql
-│
-└── README.md
+customers
+    |
+    | customer_id
+    ↓
+orders
+    |
+    | product_id
+    ↓
+products
